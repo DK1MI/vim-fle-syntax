@@ -8,7 +8,7 @@ Vim syntax file to imitate the syntax highting of Fast Log Entry (FLE).
 
 ## Why?
 
-Because it's nice to take a small GNU/Linux based laptop with me on portable operations, just log everything with VIM and do tthe rest at home.
+Because it's nice to take a small GNU/Linux based laptop with me on portable operations, just log everything with VIM and do the rest at home.
 
 ## Install
 
