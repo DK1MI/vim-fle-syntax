@@ -2,7 +2,7 @@
 
 VIM syntax plugin for writing Fast Log Entry (https://df3cb.com/fle/) compatible log files in VIM
 
-# Screnshot
+# Screenshot
 
 ![screenshot](/screenshot.jpg?raw=true "screenshot")
 
