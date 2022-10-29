@@ -14,6 +14,7 @@ syn match fle_call /\(\S*\/\)\{-\}[a-zA-Z0-9]\{1,3}[0-9][a-zA-Z0-9]\{0,3}[a-zA-Z
 
 syn keyword fle_mode ssb cw fm am SSB CW FM AM
 syn keyword fle_mode ft8 ft4 js8 rtty psk31 FT8 FT4 JS8 RTTY PSK31
+syn keyword fle_mode digitalvoice DIGITALVOICE
 syn keyword fle_header mycall mygrid operator qslmsg
 syn keyword fle_header mywwff mysota mypota nickname
 syn keyword fle_band 23cm 70cm 2m 4m 6m
