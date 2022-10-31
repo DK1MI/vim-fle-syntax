@@ -6,10 +6,6 @@ Vim syntax plugin for writing Fast Log Entry (https://df3cb.com/fle/) compatible
 
 ![screenshot](/screenshot.jpg?raw=true "screenshot")
 
-## Description
-
-Vim syntax file to imitate the syntax highlighting of Fast Log Entry (FLE).
-
 ## Why?
 
 Because it's nice to take a small GNU/Linux based laptop with me on portable operations, just log everything with Vim and do the rest at home.
