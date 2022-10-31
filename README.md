@@ -1,6 +1,6 @@
 # vim-fle-syntax
 
-VIM syntax plugin for writing Fast Log Entry (https://df3cb.com/fle/) compatible log files in VIM
+Vim syntax plugin for writing Fast Log Entry (https://df3cb.com/fle/) compatible log files in Vim.
 
 # Screenshot
 
@@ -8,11 +8,11 @@ VIM syntax plugin for writing Fast Log Entry (https://df3cb.com/fle/) compatible
 
 ## Description
 
-Vim syntax file to imitate the syntax highting of Fast Log Entry (FLE).
+Vim syntax file to imitate the syntax highlighting of Fast Log Entry (FLE).
 
 ## Why?
 
-Because it's nice to take a small GNU/Linux based laptop with me on portable operations, just log everything with VIM and do the rest at home.
+Because it's nice to take a small GNU/Linux based laptop with me on portable operations, just log everything with Vim and do the rest at home.
 
 ## Extras / Shortcuts
 
