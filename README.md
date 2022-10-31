@@ -20,8 +20,8 @@ You can insert the current time in UTC and HHMM format by pressing <F5> if you a
 
     # Insert current time in HHMM format with <F5>
     let $TZ='UTC'
-    :nnoremap <F5> "=strftime("%H%M")<CR>P
-    :inoremap <F5> <C-R>=strftime("%H%M")<CR>
+    :nnoremap <F5> "=strftime("%H%M ")<CR>P
+    :inoremap <F5> <C-R>=strftime("%H%M ")<CR>
 
 ## Install
 
