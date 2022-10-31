@@ -27,5 +27,25 @@ You can insert the current time in UTC and HHMM format by pressing <F5> and the 
 
 ## Install
 
-Copy or symlink these files to your $VIMRUNTIME/syntax and $VIMRUNTIME/ftdetect directory or to
-~/.vim/syntax and ~/.vim/ftdetect directories
+Copy or symlink these files to your _$VIMRUNTIME/syntax_ and _$VIMRUNTIME/ftdetect_ directory or to _~/.vim/syntax_ and _~/.vim/ftdetect_ directories:
+
+    # cd ~/
+    # git clone https://codeberg.org/mclemens/vim-fle-syntax.git
+    # mkdir -p ~/.vim/syntax
+    # mkdir -p ~/.vim/ftdetect
+    # ln -s ~/vim-fle-syntax/syntax/fle.vim ~/.vim/syntax/fle.vim
+    # ln -s ~/vim-fle-syntax/ftdetect/fle.vim ~/.vim/ftdetect/fle.vim
+    # vim ~/.vimrc # <<- optional: paste above lines into this file
+
+## Update
+
+    # cd ~/vim-fle-syntax
+    # git pull
+
+## Usage
+
+Just open any text file ending with .fle in vim:
+
+    # vim ~/mylog.fle
+
+Press F5 to enter timestamp, press F6 to enter current date string.
