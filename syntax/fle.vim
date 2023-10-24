@@ -1,7 +1,7 @@
 " Vim Fast Log Entry syntax file
 " Language: Fast Log Entry 
 " Maintainer: Michael Clemens
-" Latest Revision: 2022/10/31
+" Latest Revision: 2023/10/24
 
 if exists("b:current_syntax")
   finish
@@ -22,6 +22,10 @@ syn match fle_call /\(\S*\/\)*[a-zA-Z0-9]\{1,3}[0-9][a-zA-Z0-9]\{0,3}[a-zA-Z]\(\
 syn match fle_loc /#\(\S\+\)/
 " matches on words beginning with "@". Used for operator names. Example: @Mike
 syn match fle_name /@\(\S\+\)/
+" matches on SOTA references. Example: w6/ct-226
+syn match fle_sota /\<[a-zA-Z0-9]\{2,3}\/[a-zA-Z0-9]\{2}-[0-9]\{3}\>/
+" matches on POTA references. Example: DA-1234
+syn match fle_pota /\<[a-zA-Z]\{1,2}-[0-9]\{4}\>/
 
 " all supported operating modes
 syn keyword fle_mode CW SSB AM FM RTTY FT8 PSK JT65 JT9 FT4 JS8
@@ -56,5 +60,7 @@ hi def fle_header ctermfg=red
 hi def fle_freq ctermfg=red
 hi def fle_mode ctermfg=red
 hi def fle_band ctermfg=red
+hi def fle_sota ctermfg=yellow
+hi def fle_pota ctermfg=yellow
 
 let b:current_syntax = "fle"
