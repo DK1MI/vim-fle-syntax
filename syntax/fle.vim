@@ -25,7 +25,7 @@ syn match fle_name /@\(\S\+\)/
 " matches on SOTA references. Example: w6/ct-226
 syn match fle_sota /\<[a-zA-Z0-9]\{2,3}\/[a-zA-Z0-9]\{2}-[0-9]\{3}\>/
 " matches on POTA references. Example: DA-1234
-syn match fle_pota /\<[a-zA-Z]\{1,2}-[0-9]\{4}\>/
+syn match fle_pota /\<[a-zA-Z0-9]\{1,3}-[0-9]\{4}\>/
 
 " all supported operating modes
 syn keyword fle_mode CW SSB AM FM RTTY FT8 PSK JT65 JT9 FT4 JS8
