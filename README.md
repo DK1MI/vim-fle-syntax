@@ -4,7 +4,7 @@ Vim syntax plugin for writing Fast Log Entry (https://df3cb.com/fle/) compatible
 
 # Screenshot
 
-![screenshot](/screenshot.jpg?raw=true "screenshot")
+![screenshot](/screenshot.png?raw=true "screenshot")
 
 ## Why?
 
