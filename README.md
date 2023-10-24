@@ -49,3 +49,22 @@ Just open any text file ending with .fle in vim:
     # vim ~/mylog.fle
 
 Press F5 to enter timestamp, press F6 to enter current date string.
+
+## Colors
+
+If you are unhappy with the default colors, please feel free to edit _~/.vim/syntax/fle.vim_ and change the colors in the following code block:
+
+    " mapping of above matches/keywords to colors
+    " customize to your liking
+    hi def fle_call ctermfg=blue
+    hi def fle_date ctermfg=blue
+    hi def fle_other ctermfg=blue
+    hi def fle_time ctermfg=green
+    hi def fle_loc ctermfg=green
+    hi def fle_name ctermfg=cyan
+    hi def fle_header ctermfg=red
+    hi def fle_freq ctermfg=red
+    hi def fle_mode ctermfg=red
+    hi def fle_band ctermfg=red
+    hi def fle_sota ctermfg=yellow
+    hi def fle_pota ctermfg=yellow
